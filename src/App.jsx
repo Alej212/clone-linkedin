@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Header/Navbar"
+import { MenuMobile } from "./components/Header/MenuMobile"
 
 export default function App() {
   return (
@@ -7,7 +8,9 @@ export default function App() {
       <Navbar />
     </header>
     <main></main>
-    <footer></footer>   
+    <footer>
+      <MenuMobile />
+    </footer>   
     </> 
   )
 }
